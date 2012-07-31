@@ -5,5 +5,5 @@ production: localhost:6379\
 " > #{shared_path}/config/resque.yml
   fi
 EOF
-run “ln -nfs #{shared_path}/config/resque.yml #{release_path}/config/resque.yml"
+run "ln -nfs #{shared_path}/config/resque.yml #{release_path}/config/resque.yml"
 
