@@ -31,8 +31,11 @@ gem 'nifty-generators'
 #   gem 'webrat'
 # end
 
+# EY
+gem 'newrelic_rpm'
+gem 'ey_config'
+
 gem 'resque', :require => 'resque/server'
 gem 'redis'
 gem 'redis-namespace'
 gem 'yajl-ruby'
-#, :require => "resque/server"
